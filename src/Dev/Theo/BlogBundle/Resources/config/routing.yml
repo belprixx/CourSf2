@@ -1,0 +1,3 @@
+dev_theo_blog_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: DevTheoBlogBundle:Default:index }

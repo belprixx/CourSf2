@@ -1,0 +1,21 @@
+Dev\Theo\BlogBundle\Entity\Post:
+    type: entity
+    repositoryClass: Dev\Theo\BlogBundle\Entity\PostRepository
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        title:
+            type: string
+            length: '255'
+        body:
+            type: string
+            length: '255'
+        is_published:
+            type: boolean
+            length: null
+    lifecycleCallbacks: {  }

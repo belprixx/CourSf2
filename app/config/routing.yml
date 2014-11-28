@@ -1,0 +1,4 @@
+dev_theo_blog:
+    resource: "@DevTheoBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
